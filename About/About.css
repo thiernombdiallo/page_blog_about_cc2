@@ -1,0 +1,232 @@
+
+.hr_about{
+    width: 5%;
+    border: 0.1em solid #d3766b;
+    display: block; 
+    margin: 0 auto;
+}
+.about_header_text{ 
+ margin-left: -120px;
+ margin-top: 15px;
+} 
+.about_hover:hover{
+    background-color: #d3766b;
+    box-shadow: 0 0 10px #c0c0c0;
+    transform: scale(1.1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+/* .page_blog{
+    display: grid;
+} */
+/* Debut Section Footer */
+
+.Footer_Container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    background-color: #EEEEEE;
+    height: auto;
+    padding-top: 7em;
+    gap: 100px;
+    padding-bottom: 5em;
+}
+
+.Footer_Container_Element input{
+    width: 300px;
+    background-color: white;
+    border: thick solid transparent;
+    padding: 0.2em;
+
+}
+
+.Footer_Container_Element i{
+    font-size: 10px;
+}
+
+.Footer_Container_Element hr{
+    width: 25%;
+    border-width: 3px;
+    border-color:#C87065;
+    /* color:orange; */
+}
+
+.Footer_Container_Element button{
+    margin-top: 10px;
+    padding: 0.2em;
+    max-width: 150px;
+    border: thick solid transparent;
+    background-color: white;
+}
+.Footer_Container_Paiement{
+    display: flex;
+    justify-content: space-between;
+    background-color:#F2F2F2;
+    /* row-gap: 300px; */
+}
+
+.Footer_Container_Paiement_img{
+    margin-right: 100px;
+    /* width: 300px; */
+}
+
+.Footer_Container_Paiement p{
+    margin-left: 170px;
+    color: black;
+}
+.Footer_Container_Element h5{
+    /* border-bottom: 2px solid #C87065; */   
+}
+
+@media screen and (max-width:700px) {
+    .Footer_Container_Paiement_img{
+        margin-right: 10px;
+       
+    }
+    
+    .Footer_Container_Paiement p{
+        margin-left: 30px;
+        color: black;
+    }
+}
+/* Fin Section Footer */
+
+/* debut menu  */
+#MenuSec{
+    position: absolute;
+    left: -250px;
+
+}
+
+#X_Bar{
+    display: none;
+    /* margin-top: -50px; */
+    /* z-index: 3; */
+    margin-left: 30px;
+}
+
+#MenuSec ul {
+    padding-top: 10em;
+    width: 100%;
+}
+#MenuSec ul li{
+    list-style: none;
+    line-height: 40px;
+    padding-left: 5em;
+    width: 100%;
+    font-weight: bold;
+    color: #666666;
+}
+
+#MenuSec ul li:hover{
+    background-color: #C8A165;
+    color: white;
+}
+
+
+#MenuSec ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.Menu{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
+}
+
+.Menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 1em;
+    background-color: #FFFFFF; 
+}
+
+.Menu ul li {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.Container_Banner{
+    background: linear-gradient(0deg,#04061b67,#04061b67), url("../Blog/bg/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+
+}
+
+
+.Container_Banner_Link{
+    color: white;
+    margin-top:80px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:90px;
+
+}
+
+.Container_Banner h1{
+    color:white;
+    text-align: center;
+    padding-top: 2.8em;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+
+/* fin menu  */
+@media screen and (max-width:1024px){
+    .about-row-global{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 2%;
+        border: none;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .text-img-about{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-img-about-img{
+        width: 100%;
+    }
+    .about_header_text{
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .about_header_text h2{
+        text-align: center;
+    }
+
+}
+/* @media (min-width: 768px) and (max-width: 991px) { */
+/* .page_blog {
+    display: grid; */
+    /* .tetu_about{
+    box-sizing: border-box;
+}
+     */
+    /* div {
+        display: block;
+    }
+} */
+/* } */
+    /* .shop-cart-table {
+        padding: 30px 15px;
+    }
+    
+    .shop-cart-table {
+        background: #fff none repeat scroll 0 0;
+        padding: 40px;
+    } */
